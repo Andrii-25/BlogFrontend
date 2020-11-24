@@ -1,0 +1,18 @@
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+.title {
+    text-align: center;
+}
+.content {
+    font-style: normal;
+    font-size: 21px;
+  }
+  .cardmedia {
+      margin-top: 25px;
+  }
