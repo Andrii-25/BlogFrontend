@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://blogbackend-env.eba-fmiv3uyn.us-east-2.elasticbeanstalk.com/",
+  "proxy": "http://localhost:8080/",
   "eslintConfig": {
     "extends": "react-app"
   },
