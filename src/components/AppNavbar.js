@@ -6,6 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import HomeIcon from '@material-ui/icons/Home';
+import LogoutButton from './LogoutButton';
+import LoginButton from './LoginButton';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     float: "right",
+    margin: "5px"
   },
 }));
 
@@ -35,6 +38,8 @@ export default function ButtonAppBar() {
           </IconButton>
           <Typography variant="h6" className={classes.title}></Typography>
           <Button className={classes.button} variant="contained" href="/posts/new">Add Post</Button>
+          <LoginButton></LoginButton>
+          <LogoutButton></LogoutButton>
         </Toolbar>
       </AppBar>
     </div>

@@ -12,3 +12,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.edit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+.root {
+  width: 100%;
+}
+.text {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.margin {
+  margin-top: 25px;
+}
+
+.list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+.root {
+  max-width: 345;
+  margin-top: 50px;
+  border-color: black;
+  border: 5px;
+}
+.content {
+  height: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cardGrid {
+  margin-top: 50px;
+}
+.mainFeaturePost {
+  position: relative;
+  color: white;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainFeaturePostContent {
+  position: relative;
+  padding: 15px;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+.title {
+  text-align: center;
+}
+.content {
+  font-style: normal;
+  font-size: 21px;
+}
+.cardmedia {
+    margin-top: 25px;
+}
+
+.btn {
+  margin-left: 10px;
+  border: 2px solid black;
+  float: right;
+  color: black;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bcg {
+  background-image: url(https://images.unsplash.com/photo-1547532182-bf296f6be875?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+

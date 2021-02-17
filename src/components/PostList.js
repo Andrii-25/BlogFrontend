@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import AppNavbar from './AppNavbar';
-import './PostList.css';
 import { Container, Typography, Grid, 
 Card, CardMedia, CardContent, CardActions, Button, CardActionArea, Paper } from '@material-ui/core';
 import DeleteIcon from '@material-ui/icons/Delete';
-  
-
 
 class PostList extends Component {
 
@@ -41,7 +38,7 @@ class PostList extends Component {
     const {posts, isLoading} = this.state;
 
     if (isLoading) {
-     return <div className="w-100 p-1" style={{display: 'flex',}}><CircularProgress disableShrink /></div>;
+     return <div className = "parent"><div className = "block"><CircularProgress disableShrink /></div></div>;
    }
 
     const postList = posts.map(post => {
@@ -77,7 +74,7 @@ class PostList extends Component {
       </CardActions>
     </Card>
       });
-
+      
     return (
       <div>
         <AppNavbar/>

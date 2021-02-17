@@ -1,8 +1,7 @@
 import { Typography, Container, Card, CardContent, Button, CardMedia } from '@material-ui/core';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import AppNavbar from './AppNavbar'; 
-import './PostPage.css';
+import AppNavbar from './AppNavbar';
 
 class PostPage extends Component {
   emptyItem = {

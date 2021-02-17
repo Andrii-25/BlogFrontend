@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import AppNavbar from './AppNavbar';
-import './PostEdit.css';
 import { Container, Typography, Grid, TextField, Button } from '@material-ui/core';
 import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
